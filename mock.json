@@ -1,0 +1,1754 @@
+{
+	"usuarios": [
+		{
+			"numero": 100001,
+			"nombre": "Nicolas",
+			"apellido": "Gastón",
+			"DNI": "29494777",
+			"tipo": "BLACK",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "RETIRO_EFECTIVO_CAJERO_AUTOMATICO",
+					"cuentaNumero": 190,
+					"cupoDiarioRestante": 9000,
+					"monto": 1000,
+					"fecha": "10/10/2022 16:00:55",
+					"numero": 1,
+					"saldoEnCuenta": 100000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "ALTA_CHEQUERA",
+					"cuentaNumero": 190,
+					"cupoDiarioRestante": 3000,
+					"monto": 9000,
+					"fecha": "10/10/2022 16:00:55",
+					"numero": 2,
+					"saldoEnCuenta": 100000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Cupo diario excedido"
+				}
+			]
+		},
+		{
+			"numero": 100002,
+			"nombre": "María",
+			"apellido": "López",
+			"DNI": "38567421",
+			"tipo": "GOLD",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "ALTA_TARJETA_CREDITO",
+					"cuentaNumero": 245,
+					"cupoDiarioRestante": 8500,
+					"monto": 2000,
+					"fecha": "12/11/2022 10:15:30",
+					"numero": 1,
+					"saldoEnCuenta": 75000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "COMPRAR_DOLAR",
+					"cuentaNumero": 245,
+					"cupoDiarioRestante": 8500,
+					"monto": 15000,
+					"fecha": "13/11/2022 11:20:45",
+					"numero": 2,
+					"saldoEnCuenta": 75000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": "Cliente no tiene cuenta en dólares"
+				}
+			]
+		},
+		{
+			"numero": 100003,
+			"nombre": "Juan",
+			"apellido": "Martínez",
+			"DNI": "47896532",
+			"tipo": "SILVER",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "TRANSFERENCIA_ENVIADA",
+					"cuentaNumero": 310,
+					"cupoDiarioRestante": 7000,
+					"monto": 5000,
+					"fecha": "15/12/2022 09:45:10",
+					"numero": 1,
+					"saldoEnCuenta": 50000,
+					"totalTarjetasDeCreditoActualmente": 2,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "TRANSFERENCIA_RECIBIDA",
+					"cuentaNumero": 310,
+					"cupoDiarioRestante": 7000,
+					"monto": 8000,
+					"fecha": "16/12/2022 14:30:20",
+					"numero": 2,
+					"saldoEnCuenta": 50000,
+					"totalTarjetasDeCreditoActualmente": 2,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": "Transferencia no autorizada"
+				}
+			]
+		},
+		{
+			"numero": 100004,
+			"nombre": "Ana",
+			"apellido": "García",
+			"DNI": "56283947",
+			"tipo": "PLATINUM",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "COMPRAR_DOLAR",
+					"cuentaNumero": 420,
+					"cupoDiarioRestante": 9500,
+					"monto": 12000,
+					"fecha": "18/01/2023 12:00:00",
+					"numero": 1,
+					"saldoEnCuenta": 150000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "RETIRO_EFECTIVO_CAJERO_AUTOMATICO",
+					"cuentaNumero": 420,
+					"cupoDiarioRestante": 4500,
+					"monto": 6000,
+					"fecha": "19/01/2023 13:15:30",
+					"numero": 2,
+					"saldoEnCuenta": 150000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Saldo insuficiente"
+				}
+			]
+		},
+		{
+			"numero": 100005,
+			"nombre": "Luis",
+			"apellido": "Fernández",
+			"DNI": "67382910",
+			"tipo": "BLACK",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "ALTA_CHEQUERA",
+					"cuentaNumero": 510,
+					"cupoDiarioRestante": 8000,
+					"monto": 3000,
+					"fecha": "20/02/2023 08:30:00",
+					"numero": 1,
+					"saldoEnCuenta": 200000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "ALTA_TARJETA_CREDITO",
+					"cuentaNumero": 510,
+					"cupoDiarioRestante": 8000,
+					"monto": 12000,
+					"fecha": "21/02/2023 09:45:15",
+					"numero": 2,
+					"saldoEnCuenta": 200000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": "Cupo diario excedido"
+				}
+			]
+		},
+		{
+			"numero": 100006,
+			"nombre": "Laura",
+			"apellido": "Hernández",
+			"DNI": "78493021",
+			"tipo": "GOLD",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "TRANSFERENCIA_RECIBIDA",
+					"cuentaNumero": 620,
+					"cupoDiarioRestante": 8800,
+					"monto": 7000,
+					"fecha": "22/03/2023 11:20:10",
+					"numero": 1,
+					"saldoEnCuenta": 85000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "COMPRAR_DOLAR",
+					"cuentaNumero": 620,
+					"cupoDiarioRestante": 8800,
+					"monto": 16000,
+					"fecha": "23/03/2023 12:35:25",
+					"numero": 2,
+					"saldoEnCuenta": 85000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": "Cliente no tiene cuenta en dólares"
+				}
+			]
+		},
+		{
+			"numero": 100007,
+			"nombre": "Carlos",
+			"apellido": "Gómez",
+			"DNI": "89504732",
+			"tipo": "SILVER",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "RETIRO_EFECTIVO_CAJERO_AUTOMATICO",
+					"cuentaNumero": 710,
+					"cupoDiarioRestante": 6500,
+					"monto": 1500,
+					"fecha": "24/04/2023 14:50:00",
+					"numero": 1,
+					"saldoEnCuenta": 60000,
+					"totalTarjetasDeCreditoActualmente": 2,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "TRANSFERENCIA_ENVIADA",
+					"cuentaNumero": 710,
+					"cupoDiarioRestante": 6500,
+					"monto": 7000,
+					"fecha": "25/04/2023 15:05:30",
+					"numero": 2,
+					"saldoEnCuenta": 60000,
+					"totalTarjetasDeCreditoActualmente": 2,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": "Saldo insuficiente para transferencia y comisión"
+				}
+			]
+		},
+		{
+			"numero": 100008,
+			"nombre": "Sofía",
+			"apellido": "Díaz",
+			"DNI": "90615843",
+			"tipo": "PLATINUM",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "ALTA_TARJETA_CREDITO",
+					"cuentaNumero": 820,
+					"cupoDiarioRestante": 9200,
+					"monto": 4000,
+					"fecha": "26/05/2023 16:25:40",
+					"numero": 1,
+					"saldoEnCuenta": 180000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "ALTA_CHEQUERA",
+					"cuentaNumero": 820,
+					"cupoDiarioRestante": 9200,
+					"monto": 10000,
+					"fecha": "27/05/2023 17:40:55",
+					"numero": 2,
+					"saldoEnCuenta": 180000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Cupo diario excedido"
+				}
+			]
+		},
+		{
+			"numero": 100009,
+			"nombre": "Miguel",
+			"apellido": "Ramírez",
+			"DNI": "01726954",
+			"tipo": "BLACK",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "TRANSFERENCIA_ENVIADA",
+					"cuentaNumero": 910,
+					"cupoDiarioRestante": 7800,
+					"monto": 8000,
+					"fecha": "28/06/2023 18:55:10",
+					"numero": 1,
+					"saldoEnCuenta": 220000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "TRANSFERENCIA_RECIBIDA",
+					"cuentaNumero": 910,
+					"cupoDiarioRestante": 7800,
+					"monto": 11000,
+					"fecha": "29/06/2023 19:10:25",
+					"numero": 2,
+					"saldoEnCuenta": 220000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": "Transferencia no autorizada"
+				}
+			]
+		},
+		{
+			"numero": 100010,
+			"nombre": "Isabel",
+			"apellido": "Sánchez",
+			"DNI": "12837065",
+			"tipo": "GOLD",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "COMPRAR_DOLAR",
+					"cuentaNumero": 1020,
+					"cupoDiarioRestante": 9700,
+					"monto": 13000,
+					"fecha": "30/07/2023 20:25:35",
+					"numero": 1,
+					"saldoEnCuenta": 160000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "RETIRO_EFECTIVO_CAJERO_AUTOMATICO",
+					"cuentaNumero": 1020,
+					"cupoDiarioRestante": 4700,
+					"monto": 5500,
+					"fecha": "31/07/2023 21:40:50",
+					"numero": 2,
+					"saldoEnCuenta": 160000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Saldo insuficiente"
+				}
+			]
+		},
+		{
+			"numero": 100011,
+			"nombre": "Pedro",
+			"apellido": "Torres",
+			"DNI": "23948176",
+			"tipo": "SILVER",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "ALTA_CHEQUERA",
+					"cuentaNumero": 1130,
+					"cupoDiarioRestante": 8200,
+					"monto": 3500,
+					"fecha": "01/08/2023 22:55:00",
+					"numero": 1,
+					"saldoEnCuenta": 70000,
+					"totalTarjetasDeCreditoActualmente": 2,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "ALTA_TARJETA_CREDITO",
+					"cuentaNumero": 1130,
+					"cupoDiarioRestante": 8200,
+					"monto": 9500,
+					"fecha": "02/08/2023 23:10:15",
+					"numero": 2,
+					"saldoEnCuenta": 70000,
+					"totalTarjetasDeCreditoActualmente": 2,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": "Cupo diario excedido"
+				}
+			]
+		},
+		{
+			"numero": 100012,
+			"nombre": "Valeria",
+			"apellido": "Ramírez",
+			"DNI": "34059287",
+			"tipo": "PLATINUM",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "TRANSFERENCIA_RECIBIDA",
+					"cuentaNumero": 1240,
+					"cupoDiarioRestante": 9300,
+					"monto": 9000,
+					"fecha": "03/09/2023 08:30:20",
+					"numero": 1,
+					"saldoEnCuenta": 190000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "TRANSFERENCIA_ENVIADA",
+					"cuentaNumero": 1240,
+					"cupoDiarioRestante": 9300,
+					"monto": 10500,
+					"fecha": "04/09/2023 09:45:35",
+					"numero": 2,
+					"saldoEnCuenta": 190000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Saldo insuficiente para transferencia y comisión"
+				}
+			]
+		},
+		{
+			"numero": 100013,
+			"nombre": "Diego",
+			"apellido": "Vargas",
+			"DNI": "45160398",
+			"tipo": "BLACK",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "RETIRO_EFECTIVO_CAJERO_AUTOMATICO",
+					"cuentaNumero": 1350,
+					"cupoDiarioRestante": 8600,
+					"monto": 2000,
+					"fecha": "05/10/2023 10:00:50",
+					"numero": 1,
+					"saldoEnCuenta": 210000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "COMPRAR_DOLAR",
+					"cuentaNumero": 1350,
+					"cupoDiarioRestante": 8600,
+					"monto": 17000,
+					"fecha": "06/10/2023 11:15:05",
+					"numero": 2,
+					"saldoEnCuenta": 210000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": "Cliente no tiene cuenta en dólares"
+				}
+			]
+		},
+		{
+			"numero": 100014,
+			"nombre": "Lucía",
+			"apellido": "Flores",
+			"DNI": "56271409",
+			"tipo": "GOLD",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "ALTA_TARJETA_CREDITO",
+					"cuentaNumero": 1460,
+					"cupoDiarioRestante": 9100,
+					"monto": 4500,
+					"fecha": "07/11/2023 12:30:10",
+					"numero": 1,
+					"saldoEnCuenta": 170000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "ALTA_CHEQUERA",
+					"cuentaNumero": 1460,
+					"cupoDiarioRestante": 9100,
+					"monto": 10500,
+					"fecha": "08/11/2023 13:45:25",
+					"numero": 2,
+					"saldoEnCuenta": 170000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Cupo diario excedido"
+				}
+			]
+		},
+		{
+			"numero": 100015,
+			"nombre": "Jorge",
+			"apellido": "González",
+			"DNI": "67382510",
+			"tipo": "SILVER",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "TRANSFERENCIA_ENVIADA",
+					"cuentaNumero": 1570,
+					"cupoDiarioRestante": 7500,
+					"monto": 6000,
+					"fecha": "09/12/2023 14:55:40",
+					"numero": 1,
+					"saldoEnCuenta": 80000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "TRANSFERENCIA_RECIBIDA",
+					"cuentaNumero": 1570,
+					"cupoDiarioRestante": 7500,
+					"monto": 12000,
+					"fecha": "10/12/2023 16:10:55",
+					"numero": 2,
+					"saldoEnCuenta": 80000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": "Transferencia no autorizada"
+				}
+			]
+		},
+		{
+			"numero": 100016,
+			"nombre": "Emma",
+			"apellido": "Ortiz",
+			"DNI": "78493621",
+			"tipo": "PLATINUM",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "COMPRAR_DOLAR",
+					"cuentaNumero": 1680,
+					"cupoDiarioRestante": 9800,
+					"monto": 14000,
+					"fecha": "11/01/2024 17:25:05",
+					"numero": 1,
+					"saldoEnCuenta": 200000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "RETIRO_EFECTIVO_CAJERO_AUTOMATICO",
+					"cuentaNumero": 1680,
+					"cupoDiarioRestante": 4800,
+					"monto": 6500,
+					"fecha": "12/01/2024 18:40:20",
+					"numero": 2,
+					"saldoEnCuenta": 200000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Saldo insuficiente"
+				}
+			]
+		},
+		{
+			"numero": 100017,
+			"nombre": "Andrés",
+			"apellido": "Mendoza",
+			"DNI": "89504732",
+			"tipo": "BLACK",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "ALTA_CHEQUERA",
+					"cuentaNumero": 1790,
+					"cupoDiarioRestante": 8400,
+					"monto": 4000,
+					"fecha": "13/02/2024 19:55:35",
+					"numero": 1,
+					"saldoEnCuenta": 230000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "ALTA_TARJETA_CREDITO",
+					"cuentaNumero": 1790,
+					"cupoDiarioRestante": 8400,
+					"monto": 11500,
+					"fecha": "14/02/2024 21:10:50",
+					"numero": 2,
+					"saldoEnCuenta": 230000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": "Cupo diario excedido"
+				}
+			]
+		},
+		{
+			"numero": 100018,
+			"nombre": "Carla",
+			"apellido": "Reyes",
+			"DNI": "90615843",
+			"tipo": "GOLD",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "TRANSFERENCIA_RECIBIDA",
+					"cuentaNumero": 1900,
+					"cupoDiarioRestante": 9200,
+					"monto": 7500,
+					"fecha": "15/03/2024 08:30:10",
+					"numero": 1,
+					"saldoEnCuenta": 175000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "COMPRAR_DOLAR",
+					"cuentaNumero": 1900,
+					"cupoDiarioRestante": 9200,
+					"monto": 16500,
+					"fecha": "16/03/2024 09:45:25",
+					"numero": 2,
+					"saldoEnCuenta": 175000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Cliente no tiene cuenta en dólares"
+				}
+			]
+		},
+		{
+			"numero": 100019,
+			"nombre": "Fernando",
+			"apellido": "Silva",
+			"DNI": "01726954",
+			"tipo": "SILVER",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "RETIRO_EFECTIVO_CAJERO_AUTOMATICO",
+					"cuentaNumero": 2010,
+					"cupoDiarioRestante": 6800,
+					"monto": 2500,
+					"fecha": "17/04/2024 10:00:40",
+					"numero": 1,
+					"saldoEnCuenta": 90000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "TRANSFERENCIA_ENVIADA",
+					"cuentaNumero": 2010,
+					"cupoDiarioRestante": 6800,
+					"monto": 7200,
+					"fecha": "18/04/2024 11:15:55",
+					"numero": 2,
+					"saldoEnCuenta": 90000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": "Saldo insuficiente para transferencia y comisión"
+				}
+			]
+		},
+		{
+			"numero": 100020,
+			"nombre": "Gabriela",
+			"apellido": "Núñez",
+			"DNI": "12837065",
+			"tipo": "PLATINUM",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "ALTA_TARJETA_CREDITO",
+					"cuentaNumero": 2120,
+					"cupoDiarioRestante": 9400,
+					"monto": 5000,
+					"fecha": "19/05/2024 12:30:10",
+					"numero": 1,
+					"saldoEnCuenta": 210000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "ALTA_CHEQUERA",
+					"cuentaNumero": 2120,
+					"cupoDiarioRestante": 9400,
+					"monto": 11000,
+					"fecha": "20/05/2024 13:45:25",
+					"numero": 2,
+					"saldoEnCuenta": 210000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Cupo diario excedido"
+				}
+			]
+		},
+		{
+			"numero": 100021,
+			"nombre": "Héctor",
+			"apellido": "Cruz",
+			"DNI": "23948176",
+			"tipo": "BLACK",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "TRANSFERENCIA_ENVIADA",
+					"cuentaNumero": 2230,
+					"cupoDiarioRestante": 8000,
+					"monto": 8500,
+					"fecha": "21/06/2024 14:55:40",
+					"numero": 1,
+					"saldoEnCuenta": 240000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "TRANSFERENCIA_RECIBIDA",
+					"cuentaNumero": 2230,
+					"cupoDiarioRestante": 8000,
+					"monto": 12500,
+					"fecha": "22/06/2024 16:10:55",
+					"numero": 2,
+					"saldoEnCuenta": 240000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": "Transferencia no autorizada"
+				}
+			]
+		},
+		{
+			"numero": 100022,
+			"nombre": "Daniela",
+			"apellido": "Vega",
+			"DNI": "34059287",
+			"tipo": "GOLD",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "COMPRAR_DOLAR",
+					"cuentaNumero": 2340,
+					"cupoDiarioRestante": 9600,
+					"monto": 15000,
+					"fecha": "23/07/2024 17:25:05",
+					"numero": 1,
+					"saldoEnCuenta": 185000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "RETIRO_EFECTIVO_CAJERO_AUTOMATICO",
+					"cuentaNumero": 2340,
+					"cupoDiarioRestante": 4800,
+					"monto": 7000,
+					"fecha": "24/07/2024 18:40:20",
+					"numero": 2,
+					"saldoEnCuenta": 185000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Saldo insuficiente"
+				}
+			]
+		},
+		{
+			"numero": 100023,
+			"nombre": "Ricardo",
+			"apellido": "Paredes",
+			"DNI": "45160398",
+			"tipo": "SILVER",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "ALTA_CHEQUERA",
+					"cuentaNumero": 2450,
+					"cupoDiarioRestante": 8300,
+					"monto": 4500,
+					"fecha": "25/08/2024 19:55:35",
+					"numero": 1,
+					"saldoEnCuenta": 95000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "ALTA_TARJETA_CREDITO",
+					"cuentaNumero": 2450,
+					"cupoDiarioRestante": 8300,
+					"monto": 10000,
+					"fecha": "26/08/2024 21:10:50",
+					"numero": 2,
+					"saldoEnCuenta": 95000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": "Cupo diario excedido"
+				}
+			]
+		},
+		{
+			"numero": 100024,
+			"nombre": "Natalia",
+			"apellido": "Ramos",
+			"DNI": "56271409",
+			"tipo": "PLATINUM",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "TRANSFERENCIA_RECIBIDA",
+					"cuentaNumero": 2560,
+					"cupoDiarioRestante": 9500,
+					"monto": 8000,
+					"fecha": "27/09/2024 08:30:20",
+					"numero": 1,
+					"saldoEnCuenta": 195000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "TRANSFERENCIA_ENVIADA",
+					"cuentaNumero": 2560,
+					"cupoDiarioRestante": 9500,
+					"monto": 11000,
+					"fecha": "28/09/2024 09:45:35",
+					"numero": 2,
+					"saldoEnCuenta": 195000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Saldo insuficiente para transferencia y comisión"
+				}
+			]
+		},
+		{
+			"numero": 100025,
+			"nombre": "Tomás",
+			"apellido": "Mora",
+			"DNI": "67382510",
+			"tipo": "BLACK",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "RETIRO_EFECTIVO_CAJERO_AUTOMATICO",
+					"cuentaNumero": 2670,
+					"cupoDiarioRestante": 8200,
+					"monto": 3000,
+					"fecha": "29/10/2024 10:00:40",
+					"numero": 1,
+					"saldoEnCuenta": 250000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "COMPRAR_DOLAR",
+					"cuentaNumero": 2670,
+					"cupoDiarioRestante": 8200,
+					"monto": 18000,
+					"fecha": "30/10/2024 11:15:55",
+					"numero": 2,
+					"saldoEnCuenta": 250000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": "Cliente no tiene cuenta en dólares"
+				}
+			]
+		},
+		{
+			"numero": 100026,
+			"nombre": "Paula",
+			"apellido": "Reyes",
+			"DNI": "78493621",
+			"tipo": "GOLD",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "ALTA_TARJETA_CREDITO",
+					"cuentaNumero": 2780,
+					"cupoDiarioRestante": 9300,
+					"monto": 5500,
+					"fecha": "31/11/2024 12:30:10",
+					"numero": 1,
+					"saldoEnCuenta": 220000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "ALTA_CHEQUERA",
+					"cuentaNumero": 2780,
+					"cupoDiarioRestante": 9300,
+					"monto": 11500,
+					"fecha": "01/12/2024 13:45:25",
+					"numero": 2,
+					"saldoEnCuenta": 220000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Cupo diario excedido"
+				}
+			]
+		},
+		{
+			"numero": 100027,
+			"nombre": "Alejandro",
+			"apellido": "Soto",
+			"DNI": "89504732",
+			"tipo": "SILVER",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "TRANSFERENCIA_ENVIADA",
+					"cuentaNumero": 2890,
+					"cupoDiarioRestante": 7700,
+					"monto": 9000,
+					"fecha": "02/01/2025 14:55:40",
+					"numero": 1,
+					"saldoEnCuenta": 100000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "TRANSFERENCIA_RECIBIDA",
+					"cuentaNumero": 2890,
+					"cupoDiarioRestante": 7700,
+					"monto": 13000,
+					"fecha": "03/01/2025 16:10:55",
+					"numero": 2,
+					"saldoEnCuenta": 100000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": "Transferencia no autorizada"
+				}
+			]
+		},
+		{
+			"numero": 100028,
+			"nombre": "Valentina",
+			"apellido": "Silva",
+			"DNI": "90615843",
+			"tipo": "PLATINUM",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "COMPRAR_DOLAR",
+					"cuentaNumero": 3000,
+					"cupoDiarioRestante": 9900,
+					"monto": 16000,
+					"fecha": "04/02/2025 17:25:05",
+					"numero": 1,
+					"saldoEnCuenta": 230000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "RETIRO_EFECTIVO_CAJERO_AUTOMATICO",
+					"cuentaNumero": 3000,
+					"cupoDiarioRestante": 4900,
+					"monto": 7500,
+					"fecha": "05/02/2025 18:40:20",
+					"numero": 2,
+					"saldoEnCuenta": 230000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Saldo insuficiente"
+				}
+			]
+		},
+		{
+			"numero": 100029,
+			"nombre": "Sebastián",
+			"apellido": "Fuentes",
+			"DNI": "01726954",
+			"tipo": "BLACK",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "ALTA_CHEQUERA",
+					"cuentaNumero": 3110,
+					"cupoDiarioRestante": 8500,
+					"monto": 5000,
+					"fecha": "06/03/2025 19:55:35",
+					"numero": 1,
+					"saldoEnCuenta": 260000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "ALTA_TARJETA_CREDITO",
+					"cuentaNumero": 3110,
+					"cupoDiarioRestante": 8500,
+					"monto": 12500,
+					"fecha": "07/03/2025 21:10:50",
+					"numero": 2,
+					"saldoEnCuenta": 260000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": "Cupo diario excedido"
+				}
+			]
+		},
+		{
+			"numero": 100030,
+			"nombre": "Marta",
+			"apellido": "Morales",
+			"DNI": "12837065",
+			"tipo": "GOLD",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "TRANSFERENCIA_RECIBIDA",
+					"cuentaNumero": 3220,
+					"cupoDiarioRestante": 9400,
+					"monto": 8500,
+					"fecha": "08/04/2025 08:30:20",
+					"numero": 1,
+					"saldoEnCuenta": 240000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "COMPRAR_DOLAR",
+					"cuentaNumero": 3220,
+					"cupoDiarioRestante": 9400,
+					"monto": 17500,
+					"fecha": "09/04/2025 09:45:35",
+					"numero": 2,
+					"saldoEnCuenta": 240000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Cliente no tiene cuenta en dólares"
+				}
+			]
+		},
+		{
+			"numero": 100031,
+			"nombre": "Diego",
+			"apellido": "Rivas",
+			"DNI": "23948176",
+			"tipo": "SILVER",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "RETIRO_EFECTIVO_CAJERO_AUTOMATICO",
+					"cuentaNumero": 3330,
+					"cupoDiarioRestante": 7000,
+					"monto": 3500,
+					"fecha": "10/05/2025 10:00:40",
+					"numero": 1,
+					"saldoEnCuenta": 110000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "TRANSFERENCIA_ENVIADA",
+					"cuentaNumero": 3330,
+					"cupoDiarioRestante": 7000,
+					"monto": 7500,
+					"fecha": "11/05/2025 11:15:55",
+					"numero": 2,
+					"saldoEnCuenta": 110000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": "Saldo insuficiente para transferencia y comisión"
+				}
+			]
+		},
+		{
+			"numero": 100032,
+			"nombre": "Renata",
+			"apellido": "Castillo",
+			"DNI": "34059287",
+			"tipo": "PLATINUM",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "ALTA_TARJETA_CREDITO",
+					"cuentaNumero": 3440,
+					"cupoDiarioRestante": 9500,
+					"monto": 6000,
+					"fecha": "12/06/2025 12:30:10",
+					"numero": 1,
+					"saldoEnCuenta": 250000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "ALTA_CHEQUERA",
+					"cuentaNumero": 3440,
+					"cupoDiarioRestante": 9500,
+					"monto": 12000,
+					"fecha": "13/06/2025 13:45:25",
+					"numero": 2,
+					"saldoEnCuenta": 250000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Cupo diario excedido"
+				}
+			]
+		},
+		{
+			"numero": 100033,
+			"nombre": "Gabriel",
+			"apellido": "Vega",
+			"DNI": "45160398",
+			"tipo": "BLACK",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "TRANSFERENCIA_ENVIADA",
+					"cuentaNumero": 3550,
+					"cupoDiarioRestante": 8300,
+					"monto": 9500,
+					"fecha": "14/07/2025 14:55:40",
+					"numero": 1,
+					"saldoEnCuenta": 270000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "TRANSFERENCIA_RECIBIDA",
+					"cuentaNumero": 3550,
+					"cupoDiarioRestante": 8300,
+					"monto": 13500,
+					"fecha": "15/07/2025 16:10:55",
+					"numero": 2,
+					"saldoEnCuenta": 270000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": "Transferencia no autorizada"
+				}
+			]
+		},
+		{
+			"numero": 100034,
+			"nombre": "Laura",
+			"apellido": "Ponce",
+			"DNI": "56271409",
+			"tipo": "GOLD",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "COMPRAR_DOLAR",
+					"cuentaNumero": 3660,
+					"cupoDiarioRestante": 9700,
+					"monto": 18000,
+					"fecha": "16/08/2025 17:25:05",
+					"numero": 1,
+					"saldoEnCuenta": 255000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "RETIRO_EFECTIVO_CAJERO_AUTOMATICO",
+					"cuentaNumero": 3660,
+					"cupoDiarioRestante": 4900,
+					"monto": 8000,
+					"fecha": "17/08/2025 18:40:20",
+					"numero": 2,
+					"saldoEnCuenta": 255000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Saldo insuficiente"
+				}
+			]
+		},
+		{
+			"numero": 100035,
+			"nombre": "Samuel",
+			"apellido": "Castañeda",
+			"DNI": "67382510",
+			"tipo": "SILVER",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "ALTA_CHEQUERA",
+					"cuentaNumero": 3770,
+					"cupoDiarioRestante": 8600,
+					"monto": 5500,
+					"fecha": "18/09/2025 19:55:35",
+					"numero": 1,
+					"saldoEnCuenta": 120000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "ALTA_TARJETA_CREDITO",
+					"cuentaNumero": 3770,
+					"cupoDiarioRestante": 8600,
+					"monto": 13000,
+					"fecha": "19/09/2025 21:10:50",
+					"numero": 2,
+					"saldoEnCuenta": 120000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": "Cupo diario excedido"
+				}
+			]
+		},
+		{
+			"numero": 100036,
+			"nombre": "Clara",
+			"apellido": "Rojas",
+			"DNI": "78493621",
+			"tipo": "PLATINUM",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "TRANSFERENCIA_RECIBIDA",
+					"cuentaNumero": 3880,
+					"cupoDiarioRestante": 9600,
+					"monto": 8500,
+					"fecha": "20/10/2025 08:30:20",
+					"numero": 1,
+					"saldoEnCuenta": 260000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "TRANSFERENCIA_ENVIADA",
+					"cuentaNumero": 3880,
+					"cupoDiarioRestante": 9600,
+					"monto": 12500,
+					"fecha": "21/10/2025 09:45:35",
+					"numero": 2,
+					"saldoEnCuenta": 260000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Saldo insuficiente para transferencia y comisión"
+				}
+			]
+		},
+		{
+			"numero": 100037,
+			"nombre": "Emiliano",
+			"apellido": "Flores",
+			"DNI": "89504732",
+			"tipo": "BLACK",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "RETIRO_EFECTIVO_CAJERO_AUTOMATICO",
+					"cuentaNumero": 3990,
+					"cupoDiarioRestante": 8400,
+					"monto": 4000,
+					"fecha": "22/11/2025 10:00:40",
+					"numero": 1,
+					"saldoEnCuenta": 280000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "COMPRAR_DOLAR",
+					"cuentaNumero": 3990,
+					"cupoDiarioRestante": 8400,
+					"monto": 19000,
+					"fecha": "23/11/2025 11:15:55",
+					"numero": 2,
+					"saldoEnCuenta": 280000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": "Cliente no tiene cuenta en dólares"
+				}
+			]
+		},
+		{
+			"numero": 100038,
+			"nombre": "Valeria",
+			"apellido": "Delgado",
+			"DNI": "01726954",
+			"tipo": "GOLD",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "ALTA_TARJETA_CREDITO",
+					"cuentaNumero": 4100,
+					"cupoDiarioRestante": 9700,
+					"monto": 6500,
+					"fecha": "24/12/2025 12:30:10",
+					"numero": 1,
+					"saldoEnCuenta": 230000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "ALTA_CHEQUERA",
+					"cuentaNumero": 4100,
+					"cupoDiarioRestante": 9700,
+					"monto": 13000,
+					"fecha": "25/12/2025 13:45:25",
+					"numero": 2,
+					"saldoEnCuenta": 230000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Cupo diario excedido"
+				}
+			]
+		},
+		{
+			"numero": 100039,
+			"nombre": "Lucas",
+			"apellido": "Ortiz",
+			"DNI": "12837065",
+			"tipo": "SILVER",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "TRANSFERENCIA_ENVIADA",
+					"cuentaNumero": 4210,
+					"cupoDiarioRestante": 7800,
+					"monto": 10000,
+					"fecha": "26/01/2026 14:55:40",
+					"numero": 1,
+					"saldoEnCuenta": 130000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "TRANSFERENCIA_RECIBIDA",
+					"cuentaNumero": 4210,
+					"cupoDiarioRestante": 7800,
+					"monto": 14000,
+					"fecha": "27/01/2026 16:10:55",
+					"numero": 2,
+					"saldoEnCuenta": 130000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": "Transferencia no autorizada"
+				}
+			]
+		},
+		{
+			"numero": 100040,
+			"nombre": "Natalia",
+			"apellido": "Mendoza",
+			"DNI": "23948176",
+			"tipo": "PLATINUM",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "COMPRAR_DOLAR",
+					"cuentaNumero": 4320,
+					"cupoDiarioRestante": 9800,
+					"monto": 20000,
+					"fecha": "28/02/2026 17:25:05",
+					"numero": 1,
+					"saldoEnCuenta": 245000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "RETIRO_EFECTIVO_CAJERO_AUTOMATICO",
+					"cuentaNumero": 4320,
+					"cupoDiarioRestante": 4900,
+					"monto": 8500,
+					"fecha": "29/02/2026 18:40:20",
+					"numero": 2,
+					"saldoEnCuenta": 245000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Saldo insuficiente"
+				}
+			]
+		},
+		{
+			"numero": 100041,
+			"nombre": "Andrea",
+			"apellido": "Giménez",
+			"DNI": "34059287",
+			"tipo": "BLACK",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "ALTA_CHEQUERA",
+					"cuentaNumero": 4430,
+					"cupoDiarioRestante": 8600,
+					"monto": 6000,
+					"fecha": "30/03/2026 19:55:35",
+					"numero": 1,
+					"saldoEnCuenta": 290000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "ALTA_TARJETA_CREDITO",
+					"cuentaNumero": 4430,
+					"cupoDiarioRestante": 8600,
+					"monto": 13500,
+					"fecha": "31/03/2026 21:10:50",
+					"numero": 2,
+					"saldoEnCuenta": 290000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": "Cupo diario excedido"
+				}
+			]
+		},
+		{
+			"numero": 100042,
+			"nombre": "Fernando",
+			"apellido": "Luna",
+			"DNI": "45160398",
+			"tipo": "GOLD",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "TRANSFERENCIA_RECIBIDA",
+					"cuentaNumero": 4540,
+					"cupoDiarioRestante": 9500,
+					"monto": 9000,
+					"fecha": "01/04/2026 08:30:20",
+					"numero": 1,
+					"saldoEnCuenta": 250000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "COMPRAR_DOLAR",
+					"cuentaNumero": 4540,
+					"cupoDiarioRestante": 9500,
+					"monto": 18500,
+					"fecha": "02/04/2026 09:45:35",
+					"numero": 2,
+					"saldoEnCuenta": 250000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Cliente no tiene cuenta en dólares"
+				}
+			]
+		},
+		{
+			"numero": 100043,
+			"nombre": "Jimena",
+			"apellido": "Pérez",
+			"DNI": "56271409",
+			"tipo": "SILVER",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "RETIRO_EFECTIVO_CAJERO_AUTOMATICO",
+					"cuentaNumero": 4650,
+					"cupoDiarioRestante": 7200,
+					"monto": 4000,
+					"fecha": "03/05/2026 10:00:40",
+					"numero": 1,
+					"saldoEnCuenta": 140000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "TRANSFERENCIA_ENVIADA",
+					"cuentaNumero": 4650,
+					"cupoDiarioRestante": 7200,
+					"monto": 8000,
+					"fecha": "04/05/2026 11:15:55",
+					"numero": 2,
+					"saldoEnCuenta": 140000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": "Saldo insuficiente para transferencia y comisión"
+				}
+			]
+		},
+		{
+			"numero": 100044,
+			"nombre": "Sebastián",
+			"apellido": "Guzmán",
+			"DNI": "67382510",
+			"tipo": "PLATINUM",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "ALTA_TARJETA_CREDITO",
+					"cuentaNumero": 4760,
+					"cupoDiarioRestante": 9600,
+					"monto": 7000,
+					"fecha": "05/06/2026 12:30:10",
+					"numero": 1,
+					"saldoEnCuenta": 260000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "ALTA_CHEQUERA",
+					"cuentaNumero": 4760,
+					"cupoDiarioRestante": 9600,
+					"monto": 14000,
+					"fecha": "06/06/2026 13:45:25",
+					"numero": 2,
+					"saldoEnCuenta": 260000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Cupo diario excedido"
+				}
+			]
+		},
+		{
+			"numero": 100045,
+			"nombre": "Daniel",
+			"apellido": "Vargas",
+			"DNI": "78493621",
+			"tipo": "BLACK",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "TRANSFERENCIA_ENVIADA",
+					"cuentaNumero": 4870,
+					"cupoDiarioRestante": 8600,
+					"monto": 10000,
+					"fecha": "07/07/2026 14:55:40",
+					"numero": 1,
+					"saldoEnCuenta": 300000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "TRANSFERENCIA_RECIBIDA",
+					"cuentaNumero": 4870,
+					"cupoDiarioRestante": 8600,
+					"monto": 14500,
+					"fecha": "08/07/2026 16:10:55",
+					"numero": 2,
+					"saldoEnCuenta": 300000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": "Transferencia no autorizada"
+				}
+			]
+		},
+		{
+			"numero": 100046,
+			"nombre": "Camila",
+			"apellido": "Rivera",
+			"DNI": "89504732",
+			"tipo": "GOLD",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "COMPRAR_DOLAR",
+					"cuentaNumero": 4980,
+					"cupoDiarioRestante": 9800,
+					"monto": 20000,
+					"fecha": "09/08/2026 17:25:05",
+					"numero": 1,
+					"saldoEnCuenta": 265000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "RETIRO_EFECTIVO_CAJERO_AUTOMATICO",
+					"cuentaNumero": 4980,
+					"cupoDiarioRestante": 4900,
+					"monto": 9000,
+					"fecha": "10/08/2026 18:40:20",
+					"numero": 2,
+					"saldoEnCuenta": 265000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Saldo insuficiente"
+				}
+			]
+		},
+		{
+			"numero": 100047,
+			"nombre": "Martín",
+			"apellido": "Serrano",
+			"DNI": "01726954",
+			"tipo": "SILVER",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "ALTA_CHEQUERA",
+					"cuentaNumero": 5090,
+					"cupoDiarioRestante": 8700,
+					"monto": 6500,
+					"fecha": "11/09/2026 19:55:35",
+					"numero": 1,
+					"saldoEnCuenta": 125000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "ALTA_TARJETA_CREDITO",
+					"cuentaNumero": 5090,
+					"cupoDiarioRestante": 8700,
+					"monto": 14000,
+					"fecha": "12/09/2026 21:10:50",
+					"numero": 2,
+					"saldoEnCuenta": 125000,
+					"totalTarjetasDeCreditoActualmente": 3,
+					"totalChequerasActualmente": 1,
+					"razonRechazo": "Cupo diario excedido"
+				}
+			]
+		},
+		{
+			"numero": 100048,
+			"nombre": "Victoria",
+			"apellido": "Navarro",
+			"DNI": "12837065",
+			"tipo": "PLATINUM",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "TRANSFERENCIA_RECIBIDA",
+					"cuentaNumero": 5200,
+					"cupoDiarioRestante": 9700,
+					"monto": 9500,
+					"fecha": "13/10/2026 08:30:20",
+					"numero": 1,
+					"saldoEnCuenta": 270000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "COMPRAR_DOLAR",
+					"cuentaNumero": 5200,
+					"cupoDiarioRestante": 9700,
+					"monto": 19000,
+					"fecha": "14/10/2026 09:45:35",
+					"numero": 2,
+					"saldoEnCuenta": 270000,
+					"totalTarjetasDeCreditoActualmente": 5,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Cliente no tiene cuenta en dólares"
+				}
+			]
+		},
+		{
+			"numero": 100049,
+			"nombre": "Julián",
+			"apellido": "Salinas",
+			"DNI": "23948176",
+			"tipo": "BLACK",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "RETIRO_EFECTIVO_CAJERO_AUTOMATICO",
+					"cuentaNumero": 5310,
+					"cupoDiarioRestante": 8800,
+					"monto": 4500,
+					"fecha": "15/11/2026 10:00:40",
+					"numero": 1,
+					"saldoEnCuenta": 300000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "COMPRAR_DOLAR",
+					"cuentaNumero": 5310,
+					"cupoDiarioRestante": 8800,
+					"monto": 20000,
+					"fecha": "16/11/2026 11:15:55",
+					"numero": 2,
+					"saldoEnCuenta": 300000,
+					"totalTarjetasDeCreditoActualmente": 6,
+					"totalChequerasActualmente": 3,
+					"razonRechazo": "Cliente no tiene cuenta en dólares"
+				}
+			]
+		},
+		{
+			"numero": 100050,
+			"nombre": "Sofía",
+			"apellido": "Bravo",
+			"DNI": "34059287",
+			"tipo": "GOLD",
+			"transacciones": [
+				{
+					"estado": "ACEPTADA",
+					"tipo": "ALTA_TARJETA_CREDITO",
+					"cuentaNumero": 5420,
+					"cupoDiarioRestante": 9800,
+					"monto": 7500,
+					"fecha": "17/12/2026 12:30:10",
+					"numero": 1,
+					"saldoEnCuenta": 255000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": ""
+				},
+				{
+					"estado": "RECHAZADA",
+					"tipo": "ALTA_CHEQUERA",
+					"cuentaNumero": 5420,
+					"cupoDiarioRestante": 9800,
+					"monto": 15000,
+					"fecha": "18/12/2026 13:45:25",
+					"numero": 2,
+					"saldoEnCuenta": 255000,
+					"totalTarjetasDeCreditoActualmente": 4,
+					"totalChequerasActualmente": 2,
+					"razonRechazo": "Cupo diario excedido"
+				}
+			]
+		}
+	]
+}
