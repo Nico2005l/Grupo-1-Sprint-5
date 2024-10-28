@@ -31,25 +31,25 @@ class Cuenta ():
                 elif transferencia.monto > transferencia.saldo + self.cantDescubierto:
                     msj = "El monto supera el saldo y el descubierto"
                 
-            elif transferencia.tipo== "ALTA_TARJETA_CREDITO":
+            elif transferencia.tipo == "ALTA_TARJETA_CREDITO":
                 if transferencia.targetasActuales >= self.cantMaxTarjetaCrédito:
                     msj = "Se alcanzó el máximo de tarjetas de crédito"
             
-            elif transferencia.tipo== "ALTA_CHEQUERA":
+            elif transferencia.tipo == "ALTA_CHEQUERA":
                 if transferencia.chequerasActuales >= self.cantMaxChequera:
                     msj =  "Se alcanzó el máximo de chequeras"
             
-            elif transferencia.tipo== "TRANSFERENCIA_ENVIADA":
+            elif transferencia.tipo == "TRANSFERENCIA_ENVIADA":
                 if transferencia.monto*(1+(self.comision/100)) > transferencia.saldo + self.cantDescubierto:
                     msj = "El monto de la transferencia supera el saldo y el descubierto"
             
-            elif transferencia.tipo== "TRANSFERENCIA_RECIBIDA":
-                if transferencia.monto > self.maxTransfRecibida:
+            elif transferencia.tipo == "TRANSFERENCIA_RECIBIDA" :
+                if transferencia.monto > self.maxTransfRecibida and self.maxTransfRecibida != -1:
                     msj = "El monto de la transferencia supera el máximo permitido"
                 else:
                     msj =  "Transferencia no autorizada por el banco"
 
-            elif transferencia.tipo== "COMPRAR_DOLAR":
+            elif transferencia.tipo == "COMPRAR_DOLAR":
                 if "dolar" not in self.cajaDeAhorro:
                     msj =  "El Cliente no tiene caja de ahorro en dolares"    
             
